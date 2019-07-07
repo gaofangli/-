@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div>
+                <input type="file" name="file" id="file" />
+                <div>
+                  <img alt="预览" id="preview" />
+                </div> 
+                <button id="upload">上传</button>
+              </div>
+    <script>
+        document.querySelector('#upload').onclick=function() {
+            //新型的发送ajax的方式  //fetch也可以发送请求和响应
+        var formData = new FormData();
+        var fileIpt=document.querySelector('#file');
+        //append追加 接口的名字交file所以字段也叫files
+        //第二个事值 input的文件 这样能拿到上传的文件
+        formData.append('file',fileIpt.files[0]);
+        fetch('/upload',{
+            method:'POST',//请求类型
+            body:formData //设置请求体
+        })
+          .then(res => res.json()) //把整个数据 转成json字符串在往下进行
+          .then(data=>{
+                document.querySelector('#preview').src=data.src;
+        });
+        };
+        
+    
+    </script>
+</body>
+</html>

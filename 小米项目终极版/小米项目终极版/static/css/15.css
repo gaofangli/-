@@ -1,0 +1,112 @@
+#xz{
+    width: 1227px;
+    height:286px;
+    /* background: blue; */
+    margin: 0 auto;
+}
+#xz #s1{
+    width: 299px;
+    height: 286px;
+    background: #fff;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+#xz #s2{
+    width: 300px;
+    height: 286px;
+    background: #fff;
+    float: left;
+}
+
+#xz #im222{
+    width: 299px;
+    height: 181px;
+    background-size: 299px 181px;
+    cursor:pointer;
+}
+
+#xz #z111{
+    font-size: 11px;
+    color: #333;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 13px;
+}
+#xz #z222{
+    font-size: 11px;
+    color: #ebcbb7;
+    text-align: center;
+    margin-bottom: 13px;
+    cursor:pointer;
+    retu
+}
+#xz #dw111{
+    width: 36px;
+    height: 24px;
+    border: 2px solid #fff;
+    cursor:pointer;
+    border-radius: 40px;
+    position: absolute;
+    top: 146px;
+    left: 23px;
+}
+#xz #z2222{
+    font-family: "iconfont";
+    font-size: 15px;
+    color: #ebcbb7;
+    text-align: center;
+    line-height: 24px;
+}
+#xz #sp111{
+    width: 882px;
+    height: 576px;
+    /* background: red; */
+    position: fixed;
+    top: -1020px;
+    left: 350px;
+    z-index: 1;
+}
+#tmm{
+    width: 100%;
+    height: 100%;
+    background: red;
+    /* z-index: 1; */
+    display: none;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+}
+#heheee{
+    width: 882px;
+    height:550px;
+    background: #000;
+    background-size: 882px 550px;
+/* z-index: 1; */
+}
+#ss111{
+    width: 882px;
+    height:62px;
+    background: #f5f5f5; 
+}
+#ooo{
+    font-size: 17px;
+    line-height:62px;
+    margin-left: 20px;
+    color: #333;
+    font-weight:9px;
+}
+#xxxx{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #757575;
+    float: right;
+    margin-top: 22px;
+    margin-right: 23px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}

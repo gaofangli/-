@@ -1,0 +1,123 @@
+#uu_1{
+    width: 1227px;
+    height: 231px;
+    /* background: blue; */
+    margin: 0 auto;
+}
+#uu_1 .u_1{
+    width: 67px;
+    height: 126px;
+    /* background: red; */
+    margin: 0 auto;
+    float: left;
+}
+#uu_1 .u_2{
+    width: 1160px;
+    height: 138px;
+    /* background: yellowgreen; */
+    margin: 0 auto;
+    float: right;
+}
+#uu_1 .u_3{
+    width: 1227px;
+    height: 28px;
+    /* background: yellow; */
+    margin: 0 auto;
+    float: left;
+}
+#uu_1 .u_11{
+    width: 57px;
+    height: 57px;
+   margin-top: 30px;
+}
+
+#uu_1 .k_1{
+   border-right: 1px solid #c0b0c0;
+   float: left;
+   padding: 0px 4px;
+   margin-top: 30px;
+}
+#uu_1 .k_5{
+    /* border-right: 1px solid #c0b0c0; */
+    float: left;
+    padding: 0px 4px;
+    margin-top: 30px;
+ }
+#uu_1 .k_2:hover{
+    color: #ff6b00;
+ }
+
+#uu_1 .k_2{
+    font-size: 12px;
+    text-align: center;
+    color: #757575;
+    float: left;
+    text-decoration: none;
+ }
+ #uu_1 #k1{
+     width: 1160px;
+    font-size: 12px;
+    /* background: red; */
+    /* text-align: center; */
+    /* color: #757575; */
+    float: left;
+    text-decoration: none;
+ }
+ #uu_1 #o_1{
+     font-size: 11px;
+     margin-top: 7px;
+     margin-bottom: 7px;
+     color: #b0b6c9;
+     text-decoration: none; 
+ }
+ #uu_1 #o_2{
+    font-size: 11px;
+    /* margin-top: 7px; */
+    margin-bottom: 7px;
+    color: #b0b6c9;
+    text-decoration: none;
+}
+#uu_1 #o_3{
+    font-size: 11px;
+    /* margin-top: 7px; */
+    margin-bottom: 7px;
+    color: #b0b6c9;
+    text-decoration: none;
+}
+#uu_1 #o_4{
+    font-size: 11px;
+    /* margin-top: 7px; */
+    margin-bottom: 7px;
+    color: #b0b6c9;
+    text-decoration: none;
+}
+#uu_1 #o_1:hover{
+color: #ff6b00;
+}
+#uu_1 #o_2:hover{
+    color: #ff6b00;
+}
+#uu_1 #o_3:hover{
+    color: #ff6b00;
+}
+#uu_1 #o_4:hover{
+    color: #ff6b00;
+}
+
+
+.u_3 .u_4{
+    width: 85px;
+    height: 28px;
+    background-size: 85px 28px;
+    margin-left: 67px;
+    float: left;
+    margin-right:7px ;
+}
+.u_3 .u_5{
+    width: 85px;
+    height: 28px;
+    background-size: 85px 28px;
+    /* margin-left: 67px; */
+    float: left;
+    margin-right:7px ;
+}

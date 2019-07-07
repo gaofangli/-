@@ -1,0 +1,218 @@
+body,html {
+    width: 100%;
+    background: #f9f9f9; 
+}
+.wrap{
+    width: 840px;
+    height: 535px;
+    background: #fff;
+    margin: 50px auto 0;
+    text-align: center;
+    position: relative;
+}
+#duihao{
+    width: 12px;
+    height: 12px;
+    background: red;
+    display:none;
+    position: absolute;
+    top: -64px;
+    left: 609px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+.title_big30{
+    margin-top: 36px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333333;
+}
+#ai_22:hover{
+    color: red;
+}
+.reg-main {
+    width: 334px;
+    height: 243px;
+    margin-left: 257px;
+    margin-top: 31px; 
+    text-align: left;
+}
+.select-cycode1 {
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    text-indent: 10px;
+}
+.select-cycode1 label{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    /* color: lightblue; */
+    /* text-indent: 20px; */
+    /* font-family: "宋体"; */
+}
+.select-cycode2 label{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+.select-cycode3 label{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+
+.select-cycode1 #username{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 60px;
+    outline: none;
+    border: none;
+    border: 1px solid #9d9d9d;
+    text-indent: 20px;
+}
+
+.select-cycode2 #password{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 60px;
+    outline: none;
+    border: none;
+    border: 1px solid #9d9d9d;
+    text-indent: 20px;
+}
+
+.select-cycode3 #passwordd{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 60px;
+    outline: none;
+    border: none;
+    border: 1px solid #9d9d9d;
+    text-indent: 20px;
+}
+.select-cycode3 #password-again{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 60px;
+    outline: none;
+    border: none;
+    border: 1px solid #9d9d9d;
+    text-indent: 20px;
+}
+.select-cycode2 {
+    width: 400px;
+    height: 60px;
+    
+}
+.select-cycode3 {
+    width: 400px;
+    height: 60px;
+}
+#fixed_bot mar_phone_dis {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.fixed_bot {
+    width: 400px;
+    height: 60px;
+    margin-top: 29px;
+}
+input[type="submit"] {
+    width: 400px;
+    height: 60px;
+    background-color: #ff6700;
+    border: 1px solid rgba(186,186,186,0.3);
+    border: 0 none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.n_checked{
+    text-align: center;
+    padding-top: 75px;
+    display: block;
+    color: #9d9d9d;
+    font-size: 11px;
+}
+.icon_select{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 3px 5px 0 0;
+    overflow: hidden;
+    background: url(../images/icon_user.png) no-repeat -33px 0px;
+    vertical-align: -3px;
+    
+}
+.icon_select1{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 3px 5px 0 0;
+    overflow: hidden;
+    background: url(../images/icon_user.png) no-repeat -17px 0px;
+    vertical-align: -3px;
+}
+#xieyi {
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+}
+#primary {
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+}
+#footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+#footer .lang-select-list{
+    position: absolute;
+    top: 13px;
+    left: 38%;
+    z-index: 100;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px; 
+}
+
+#footer .lang-select-list .fl a{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+}
+#footer .nf-intro{
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+    margin-top: 20px;
+}
+#footer .nf-intro a{
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+}
+
+

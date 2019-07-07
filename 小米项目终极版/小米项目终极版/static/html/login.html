@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米账号-登入</title>
+    <link rel="icon" href="//s01.mifile.cn/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+</head>
+<body>
+      <form class="form">
+            <div id="shanga">
+                  <div class="mi">
+                        <a href="../xiaomi.html"><div class="xiao"></div></a> 
+                  </div>
+              </div>
+              <div id="quan"></div>
+            <div class="container">
+                  <div id="lo-btm3-top">
+                        <a href="javascript:void(0);" style="color: #f56600; font-size: 30px;" id="numLogin">帐号登录</a>
+                        <span class="line"></span>
+                        <a href="javascript:void(0);" id="maLogin">扫码登录</a>
+                  </div>
+                  <div id="ipt">
+                        <div class="item">
+                              <label for="usernmae"></label>
+                              <input type="text" name="username" id="username" required  placeholder="&nbsp &nbsp邮箱/手机号码/小米ID"/>
+                        </div>
+                        <div  class="item">
+                              <label for="password"></label>
+                              <input type="password" name="password" id="password" required placeholder="&nbsp &nbsp密码"/>
+                        </div  >
+                  <div>
+                      <button id="dengru">登录</button>
+                        <a href="/register" id="mmm">手机短信登录/注册</a>
+                        <a href="/register" id="mm">立即注册</a>
+                        <a id="mmmm" href="https://account.xiaomi.com/pass/forgetPassword?callback=https%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fstatic.mi.com%252Fcart%252F%26sign%3DOWZkOTE1NjdlZWYxOGRkMGRmODYwODNhNjc1YTVkNDQ2ODkwOWE3ZA%2C%2C&sid=mi_eshop&_bannerBiz=mistore&_qrsize=180">忘记密码</a>
+                        <div id="xian"></div>
+                        <div class="m_9">其他方式注册</div>
+                        <div id="tu_1"></div>
+                        <div class="tu_2"></div>
+                        <div class="tu_3"></div>
+                        <div class="tu_4"></div>
+                        <div class="tu_5"></div>
+                  </div>
+            </div>
+                  <div id="saoma" style="display: none;">
+                        <img src="/images/ma.png" alt="">
+                        <p id="custom-qr-name">使用<span style="color:#f56600">小米商城APP</span>扫一扫</p>
+                        <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                  </div>
+            </div>
+            </div>
+            <div id="dibu">
+                  <div class="m_1">
+                        <div class="m_3">简体</div>
+                        <div class="m_3">繁体</div>
+                        <div class="m_3">English</div>
+                        <div class="m_3">常见问题</div>
+                        <div class="m_4">隐私政策</div>                
+                  </div>
+                  <div class="m_5">小米公司版权所有-京ICP备10046444- &nbsp &nbsp&nbsp京公网安备11010802020134号-京ICP证110507号</div>
+                   <img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png" alt="" id="m_6">
+            </div>
+      </form>
+      <script>
+            var numlogin = document.getElementById("numLogin");
+            var malogin = document.getElementById("maLogin");
+            var ipt = document.getElementById("ipt");
+            var saoma = document.getElementById("saoma");
+            // 鼠标滑过
+            numlogin.onmousemove = function() { 
+            numlogin.style.color = "#f56600";
+            malogin.style.color = "#666666"; 
+            }
+            malogin.onmousemove = function() { 
+            malogin.style.color = "#f56600";
+            numlogin.style.color = "#666666";
+            }
+            //点击事件
+            numlogin.onclick = function() { 
+            saoma.style.display = "none";
+            ipt.style.display = "block";
+            }
+            malogin.onclick = function() { 
+            saoma.style.display = "block";
+            ipt.style.display = "none";
+            }
+      </script>
+      <script src="/js/ajax.promise.js"></script>
+      <script src="/js/login.js"></script>
+</body>
+</html>

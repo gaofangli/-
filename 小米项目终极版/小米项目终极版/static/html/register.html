@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="icon" href="//s01.mifile.cn/favicon.ico" type="image/x-icon" />
+    <title>小米-注册</title>
+</head>
+<form >
+<body>
+  <div class="wrap"  id="wrap">
+    <a href="javascript:void(0)">
+      <img src="/images/milogo.png" alt="">
+    </a>
+    <h4 class="title_big30">注册小米帐号</h4>
+    <div class="reg-main">
+      <div class="select-cycode1"> 
+        <label for="username">用户名&nbsp;&nbsp;</label>
+        <input type="text" name="username" id="username" placeholder="请输入用户名">  
+      </div>
+      <div class="select-cycode2"> 
+          <label for="password">密&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;码:</label>
+          <input type="password" name="password" id="password" required  placeholder="密码"/>
+           
+        </div>
+        <div class="select-cycode3"> 
+            <label for="password">确认密码:</label>
+            <input type="password" name="repasswd" id="passwordd" required placeholder="确认密码" />
+        </div>
+        <a href="/login" id="ai_22">已经注册过了去登陆</a>
+      <div class="fixed_bot">
+        <input type="submit" id="submit" value="立即注册">
+      </div>
+    </div>
+    <label class="n_checked select-privacy">
+      <i class="icon_select"></i> 
+      注册帐号即表示您同意并愿意遵守小米
+      <a href="#" title="用户协议" id="xieyi" target="_blank">用户协议</a>
+      和<a href="#" title="隐私政策 " id="primary" target="_blank"> 隐私政策 </a>
+    </label>
+  </div>
+  <div id="footer">
+      <ul class="lang-select-list clearfix">
+          <li class="fl"><a href="javascript:void(0)" style="color: #333"> 简体</a>|</li>
+          <li class="fl"><a href="#">繁体</a>|</li>
+          <li class="fl"><a href="#">English</a>|</li>
+          <li class="fl"><a href="#" target="_blank">常用</a>|</li>
+          <li class="fl"><a href="#" target="_blank">隐私政策</a></li>
+      </ul>
+      <br>
+      <p class="nf-intro"> 小米公司版权所有-京ICP备10046444-
+          <a target="_blank" href="#">
+              <span>
+                  <img src="/images/ghs.png">
+              </span>京公网安备11010802020134号
+          </a>-京ICP证110507号
+      </p>
+      <div id="duihao">√</div>
+  </div>
+</form>
+  <!-- <script src="/js/login.js"></script> -->
+  <script src="/js/ajax.promise.js"></script>
+  <script src="/js/y3.js"></script>
+            <script>
+            document.querySelector("form").addEventListener('submit',function(e){
+                e.preventDefault(); //preventDefault() 方法阻止元素发生默认的行为（例如，当点击提交按钮时阻止对表单的提交）。
+
+                fetch('/register',{
+                    method:'POST',   //method 属性可设置或返回用于表单提交的 HTTP 方法。
+                    body: new FormData(this)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    alert(data.message);
+                    if (data.code == 200) {
+                    location = '/login';
+                        
+                    }
+                });
+
+            });
+            </script>
+  <!-- <script src="/js/register.js"></script> -->
+</body>
+</html>

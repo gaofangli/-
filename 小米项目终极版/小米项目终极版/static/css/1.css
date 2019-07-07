@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    width: 100%;
+    height: 100%;
+    /* background: #666; */
+}
+
+#margin{
+    width: 100%;
+    height: 40px;
+    background:#333333;
+    position: relative;
+}
+#margin #InTheFrame{
+    width: 1227px;
+    height: 40px;
+    background:#333;
+    margin: 0 auto;
+}
+#margin #InTheFrame #xiao{
+     width: 700px;
+     height: 16px;
+     margin-top: 12px;   
+     background: #333;
+    float: left;
+    position: relative;
+}
+#margin #InTheFrame #xiao .typeface{
+    font-size: 11px;
+    color: #b0b0b0;
+    border-right: 1px solid #3b423b;
+    padding: 0px 7px;
+    float: left;
+    text-decoration: none;
+}
+#margin #InTheFrame #xiao .typefa{
+    font-size: 11px;
+    color: #b0b0b0;
+    padding: 0px 7px;
+    float: left;
+    cursor:pointer;
+    text-decoration: none;
+}
+#margin #InTheFrame #xiao .typefac{
+    font-size: 11px;
+    color: #b0b0b0;
+    padding-right:7px;
+      border-right: 1px solid #3b423b;
+    float: left;
+    text-decoration: none;
+}
+#margin #InTheFrame #xiao .typef{
+    font-size: 11px;
+    color: #b0b0b0;
+    padding: 0px 7px;
+    border-right: 1px solid #3b423b;
+    float: left;
+    text-decoration: none;
+}
+#dd{
+    width: 882px;
+    height: 566px;
+    background: red;
+    z-index: 1;
+    /* display: none; */
+    position: fixed;
+    left:380px;
+    top: -700px;
+}
+
+#margin #InTheFrame #xiao .caddy {
+    width: 882px;
+    height: 63px;
+    background: #f5f5f5;
+}
+#margin #InTheFrame #xiao .InTheBox{
+    width: 882px;
+    height: 103px;
+    background: #fff;
+}
+#margin #InTheFrame #xiao .TheBox{
+    width: 780px;
+    height: 401px;
+    background: #fff;
+    padding:0px 51px;
+    display: inline-block;
+}
+#margin #InTheFrame #xiao .TheFont{
+    height: 15px;
+    font-size: 15px;
+    margin-top: 22px;
+    font-weight: bold;
+    display:inline-block;
+    margin-left: 32px;
+}
+#margin #InTheFrame #xiao .im{
+   width: 20px;
+   height: 20px;
+   border-radius: 50px;
+   font-size: 18px;
+   line-height: 20px;
+   color: #757575;
+   float: right;
+   margin-top: 22px;
+   margin-right: 23px;
+   cursor:pointer;
+   font-weight: bold;
+}
+#margin #InTheFrame #xiao .im:hover{
+    background: red;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+}
+#margin #InTheFrame #xiao .wen{
+    font-size: 26px;
+    margin-left: 325px;
+    margin-top:21px;
+    display: inline-block;
+    color: #424242;
+}
+#margin #InTheFrame #xiao .wen2{
+    font-size: 13px;
+    margin-left: 341px;
+    display: inline-block;
+    color: #333333;
+   
+}
+#margin #InTheFrame #xiao .xiaohezi{
+    width: 140px;
+    height: 41px;
+    background:#eeeeee;
+    margin-top:21px;
+    margin-right: 20px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 41px;
+    color: #757575;
+    font-size: 10px;
+    
+}
+#margin #InTheFrame #xiao .xiaoheziz{
+    width: 140px;
+    height: 41px;
+    background:#eeeeee;
+    margin-top:21px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 41px;
+    color: #757575;
+    font-size: 10px;
+    font-weight: bold;
+}
+#margin #InTheFrame #xiao .xiaohezi:hover{
+    width: 140px;
+    height: 41px;
+    background:red;
+    margin-top:21px;
+    margin-right: 20px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+#margin #InTheFrame #xiao .xiaoheziz:hover{
+    width: 140px;
+    height: 41px;
+    background:red;
+    margin-top:21px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#margin #InTheFrame #xiao .typeface:hover{
+    color: #fff;
+}
+#margin #InTheFrame #xiao .typefac:hover{
+    color: #fff;
+}
+#margin #InTheFrame #xiao .typefa:hover{
+        color: #fff;
+}
+#margin #InTheFrame #xiao .typef:hover{
+    color: #fff;
+}
+.code{
+    width: 90px;
+    height: 149px;
+    background: #fff;
+    position: absolute;
+    top: 28px;
+    left: 465px;
+    padding: 0px 18px;
+    text-decoration: none;
+    cursor:pointer;
+    display: inline-block;
+    display: none;
+    z-index: 1;
+}
+
+.mi{
+    width: 90px;
+    height: 86px;
+    background: url(../img/2.png) repeat center;
+    background-size: 90px 86px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
+.zi{
+    width: 90px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+#KK{
+    height: 40px;
+    width: 60px;
+    float: left;
+    z-index: 10;
+}
+.dingwei{
+    width: 21px;
+    height: 10px;
+    background:url(../img/3.png) ;
+    background-size: 21px 10px;
+    position: absolute;
+    top:-10px;
+    left: 52px;
+}
+
+#TheRightFrame{
+    width: 279px;
+    height: 40px;
+    background: #333;
+    float: right;
+}
+#TheRightFrame .zuo{
+    width: 159px;
+    height: 16px;
+    margin-top: 12px;
+    background: #333;
+    float: left;
+}
+#TheRightFrame .yuot{
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    text-decoration: none;
+   display:inline-block;
+   position: relative;
+}
+#TheRightFrame .gouwuche{
+    font-size: 11px;
+    color: #b0b0b0;
+    margin-left: 42px;
+    font-weight: bold;
+    margin-top: 12px;
+    float: left;
+    margin-left: 4px;
+}
+#TheRightFrame .gim{
+    width: 20px;
+    height: 14px;
+    margin-top: 12px;
+    /* background: url(../img/4.png) ; */
+    font-family: "iconfont";
+    background-size: 20px 14px;
+    font-size: 18px;
+    float: left;
+    color: #b0b0b0;
+    margin-left: 18px;
+}
+#TheRightFrame #youzi{
+    font-size: 11px;
+    color: #b0b0b0;
+    border-right: 1px solid #3b423b;
+    padding: 0px 7px;
+    float: left;
+    text-decoration: none;
+}
+#TheRightFrame #youz{
+    font-size: 11px;
+    color: #b0b0b0;
+    padding-right: 7px;
+    border-right: 1px solid #3b423b;
+    float: left;
+    text-decoration: none;
+}
+#TheRightFrame #youzz{
+    font-size: 11px;
+    color: #b0b0b0;
+    padding: 0px 7px;
+    float: left;
+    text-decoration: none;
+}
+
+#TheRightFrame #youzi:hover{
+    color: #fff;
+}
+#TheRightFrame #youz:hover{
+    color: #fff;
+}
+#TheRightFrame #youzz:hover{
+    color: #fff;
+}
+
+#TheRightFrame .gouwuche:hover{
+    color: #fe6a00;
+}
+#TheRightFrame .yuot:hover{
+    background: #fff; 
+    color: #fe6a00;
+}
+/* #TheRightFrame .gim:hover{
+    color: #fe6a00;
+} */
+#TheRightFrame .gh{
+    width: 300px;
+    height: 0px;
+    line-height: 100px;
+    background: #fff;
+    position: absolute;
+    left:-180px;
+    top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 5px 5px 30px   0px #000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 100px;
+    overflow: hidden;
+    z-index: 1;
+}
+#TheRightFrame .gh:hover .gouwuche{
+   background: #fff;
+}
+#tm{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display:nonne;
+    /* z-index: 1; */
+    display: none;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top:0;
+ 
+}

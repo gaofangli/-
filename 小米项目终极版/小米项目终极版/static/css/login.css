@@ -1,0 +1,277 @@
+form {
+  width: 800px;
+  height: 600px;
+  margin: 100px auto;
+}
+#shanga{
+  width: 100%;
+  height: 98px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.xiao{
+  width: 200px;
+  height: 98px;
+  background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+  float: left;
+}
+.mi{
+  width: 1361px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+#quan{
+  width: 100%;
+  height:600px;
+  position: absolute;
+  left: 0;
+  top: 98px;
+  background: url(../img/u6.jpg);
+  background-size: 2600px 600px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container {
+  background-color:#fff; 
+  width: 400px;
+  height: 524px;
+  /* box-shadow: 2px 5px 5px 2px blueviolet; */
+  text-align: center;
+  padding: 40px;
+  position: absolute;
+  left: 960px;
+  top: 98px;
+}
+
+.container .item {
+  height: 40px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+a{
+  text-decoration:none;
+  color: #999;
+
+}
+a:hover{
+  color: red;
+}
+#dibu{
+  width: 100%;
+  height: 150px;
+  background:#fff;
+  position: absolute;
+  top: 698px;
+  left: 0px;
+  float: left;
+}
+.m_1{
+  width: 350px;
+  height: 20px;
+  color: #757575;;
+  margin: 0 auto;
+  margin-top:60px;
+}
+
+
+.m_3{
+  font-size: 14px;
+  display: inline-block;
+  display: inline;
+  zoom: 1;
+  border-right: 1px solid #666;
+  padding: 0 10px;
+  color: #757575;
+}
+
+.m_4{
+  font-size: 14px;
+  display: inline-block;
+  display: inline;
+  zoom: 1;
+  padding: 0 10px;
+  color: #757575;
+}
+.m_5{
+  width: 680px;
+  height: 20px;
+  font-size: 15px;
+  color: #757575;;
+  margin: 0 auto;
+  margin-top:20px;
+  position: relative;
+}
+#m_6{
+ position:absolute;
+ top: 99px;
+ left: 677px;
+}
+#username{
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+}
+#password{
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+}
+
+
+#dengru{
+  background-color: #ff6700;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+#mm{
+  border-right: 1px solid  #999;;
+  padding: 0 10px;
+  color: #999;
+}
+#mmmm{
+  color: #999;
+  float: right;
+}
+#mm:hover{
+  color: red;
+}
+#xian{
+  border-top: 1px solid #e0e0e0;
+    margin-top: 100px;
+    padding-bottom: 10px\9;
+   
+}
+.m_9{
+  width: 100px;
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 0 auto;
+  text-align: center;
+  margin-left:150px;
+  background: #fff;
+  margin-top: -10px;
+  float: left;
+}
+#mmm{
+  width: 200px;
+  padding: 0 10px;
+  color: #999;
+  text-align: left;
+  float: left;
+}
+#mmm:hover{
+  color: red;
+}
+
+.tu_2{
+  background: url("../img/ai_4.png");
+  background-size: 41px 41px;
+  width: 40px;
+  height: 40px;
+  margin-top: 59px;
+  margin-left:  10px;
+  margin-right: 90px;
+ float: right;
+ }
+ .tu_3{
+  background: url("../img/ai_3.png");
+  background-size: 41px 45px;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left:  10px;
+  margin-right: 10px;
+ float: right;
+ }
+ .tu_4{
+  background: url("../img/ai_2.png");
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left:  10px;
+  margin-right: 10px;
+ float: right;
+ }
+ .tu_5{
+  background: url("../img/ai_1.png");
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left:  10px;
+  margin-right: 10px;
+ float: right;
+ }
+
+ #repasswd{
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+ }
+ #juzhong{
+   width: 100%;
+   height: 100%;
+   background: red;
+   margin: 0 auto;
+ }
+ 
+.containerr {
+  background-color:#fff; 
+  width: 400px;
+  height: 524px;
+  /* box-shadow: 2px 5px 5px 2px blueviolet; */
+  text-align: center;
+  padding: 40px;
+  margin: 0 auto;
+
+}
+.j_1{
+  width: 100%;
+  height: 40px;
+}
+
+#lo-btm3-top{
+  padding: 0px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+#lo-btm3-top a{
+  padding: 0px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+#lo-btm3-top .line{
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e0;
+  display: inline-block;
+  vertical-align: -4px;
+  margin-right: 43px;
+  margin-left: 43px;
+}
+#saoma{
+  text-align: center;
+  color:#666;
+  margin-top: 150px;
+}
+
+
+#ipt{
+  width: 400px;
+  height: 200px;
+} 

@@ -1,0 +1,195 @@
+#louti{
+    width: 90px;
+    height: 450px;
+    position: fixed;
+    top: 130px;
+    right: 0px;
+    border: 1px solid #f5f5f5;
+    z-index: 1;
+}
+#louti #s{
+    width:90px;
+    height: 90px;
+    background: #fff;
+    float: left;
+    color: #9a9a9a;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+    cursor:pointer;
+    position: relative; 
+}
+#louti #ss{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    float: left;
+    color: #9a9a9a;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+    cursor:pointer;
+}
+#louti #sss{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    float: left;
+    color: #9a9a9a;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+    cursor:pointer;
+}
+#louti #ssss{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    float: left;
+    color: #9a9a9a;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+    cursor:pointer;
+}
+#louti #sssss{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    float: left;
+    color: #9a9a9a;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+    cursor:pointer;
+}
+#louti #t{
+    font-family: "iconfont";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    text-decoration: none; 
+}
+#louti #tt{
+    font-family: "iconfont";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+#louti #ttt{
+    font-family: "iconfont";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    text-decoration: none;  
+}
+#louti #tttt{
+    font-family: "iconfont";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    text-decoration: none;  
+}
+#louti #ttttt{
+    font-family: "iconfont";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    text-decoration: none;  
+}
+
+#louti #zz{
+    font-family: "iconfont";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#louti #zzz{
+    font-family: "iconfont";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#louti #zzzz{
+    font-family: "iconfont";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#louti #zzzzz{
+    font-family: "iconfont";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#louti #zzzzzz{
+    font-family: "iconfont";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+#louti .cod{
+    width: 90px;
+    height: 149px;
+    background: #fff;
+    position: absolute;
+    top: -1px;
+    left:-130px;
+    padding: 0px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+}
+#louti .mni{
+    width: 90px;
+    height: 86px;
+    background: url(../img/2.png) repeat center;
+    background-size: 90px 86px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+#louti .ziz{
+    width: 90px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+}
+#louti .dingwe{
+    width: 21px;
+    height: 10px;
+    background: url(../img/3.png);
+    background-size: 21px 10px;
+    position: absolute;
+    top: -10px;
+    left: 52px;
+    overflow: hidden;
+}
+#bn{
+    width: 100px;
+    height: 100px;
+}

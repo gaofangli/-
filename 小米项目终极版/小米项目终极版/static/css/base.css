@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.w{
+  width: 1101px;
+  margin: 0 auto;
+}
+.clearfix{
+  display: block;
+  content: "\20";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+}

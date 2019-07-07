@@ -1,0 +1,520 @@
+#yy{
+    width: 100%;
+    height: 943px;
+    background: #fff;
+   float: left;
+}
+#centre{
+    width: 1227px;
+    height: 53px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 25px 0px;
+    position: relative; 
+}
+#centre .im{
+    width: 55px;
+    height: 55px;
+    background: url(../img/6.png) center;
+    background-size: 55px 55px;
+    margin-right: 191px;
+    float: left;
+}
+#centre .middle{
+    width: 601px;
+    height: 53px;
+    background: #fff;
+    float: left;
+     margin-right:79px  
+}
+#centre .nav{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333; 
+    cursor:pointer; 
+}
+#centre .nav:hover{
+    color: red;
+}
+#centre .navv{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+    cursor:pointer;
+}
+#centre .navvv{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+}
+#centre .navvvv{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+    cursor:pointer;
+}
+#centre .navvvvv{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+    cursor:pointer;
+}
+#centre .navvvvvv{
+    height: 20px;
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+    cursor:pointer;
+}
+#centre .navvvvvvv{
+    font-size: 15px;
+    line-height: 53px;
+    float: left;
+    padding-right:21px;
+    text-decoration: none;
+    color: #333;
+    
+}
+#centre #inp{
+     width: 297px;
+     height: 50px;
+    float: left;
+    border:1px solid #e0e0e0;
+    position: relative;
+}
+#centre .dd{
+    width: 51px;
+    height: 50px;
+    background: #fff;
+    border:1px solid #e0e0e0;
+    float: left;
+    color: #333; 
+    position: absolute;
+    top: 25px;
+    left:1174px;
+    text-align: center;
+}
+#centre #aa{
+    color: #887561;
+    font-size: 17px;
+    display:inline-block;
+    text-align: center;
+    line-height: 53px;
+    text-decoration: none;
+    font-family: "iconfont";
+    font-weight: bold;
+}
+#centre .dd:hover{
+  background: red;
+  color: #fff;
+  transition: 1s;
+}
+#centre #aa:hover{
+    color: #fff;
+    transition: 0.5s;
+  }
+  #centre .dw{
+      width: 108px;
+      height: 20px;
+      background: #fff;
+      position: absolute;
+      top: 41px;
+      left: 1058px;
+      overflow: hidden;
+  }
+  #centre .zuohe{
+    width: 42px;
+    height: 20px;
+    background: #eeeeee;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #757575;
+}
+#centre .yuohe{
+    width: 62px;
+    height: 20px;
+    background: #eeeeee;
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #757575;
+}
+
+#centre .zuohe:hover{
+    background: red;
+    color:#fff;
+    transition: 0.5s;
+}
+#centre .yuohe:hover{
+    background: red;
+    color:#fff;
+    transition: 0.5s;
+}
+
+
+#xiala{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1; 
+    /* display: none; */
+}
+#xiala .zhong{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xiala .h{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xiala .im{
+    width: 90px;
+    height: 107px;
+    background: url(../img/7.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xiala .z{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xiala .zi{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 60px;
+}
+#xiala .imm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/8.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+
+#xialaa{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaa .zhongg{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaa .hh{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaa .imm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/8.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaa .zz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaa .zii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+
+
+#xialaaa{
+    width: 100%;
+    height:0px;
+    background:#fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaaa .zhonggg{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaaa .hhh{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaaa .immm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/9.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaaa .zzz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaaa .ziii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#xialaaaa{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaaaa .zhongggg{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaaaa .hhhh{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaaaa .immmm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/10.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaaaa .zzzz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaaaa .ziiii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+#xialaaaaa{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaaaaa .zhonggggg{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaaaaa .hhhhh{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaaaaa .immmmm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/8.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaaaaa .zzzzz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaaaaa .ziiiii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+#xialaaaaaa{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaaaaaa .zhongggggg{
+    width: 1227px;
+    height: 229px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaaaaaa .hhhhhh{
+    width: 204.5px;
+    height: 229px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaaaaaa .immmmmm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/8.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaaaaaa .zzzzzz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaaaaaa .ziiiiii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#xialaaaaaaa{
+    width: 100%;
+    height:0px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top:142px;
+    z-index: 1;
+}
+#xialaaaaaaa .zhonggggggg{
+    width: 1227px;
+    height: 229px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#xialaaaaaaa .hhhhhhh{
+    width: 204.5px;
+    height: 229px;
+    background:#fff;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+#xialaaaaaaa .immmmmmm{
+    width: 90px;
+    height: 107px;
+    background: url(../img/7.png) center;
+    background-size: 90px 107px;
+    margin-left:10.25px ;
+    margin-top:37px ;
+    display: inline-block;
+}
+
+#xialaaaaaaa .zzzzzzz{
+    margin-top:21px;
+    font-size: 12px;
+    color: #333333;
+}
+#xialaaaaaaa .ziiiiiii{
+    font-size: 13px;
+    color: #ff6700;
+    margin-top:5px;
+    margin-left: 5px;
+    font-weight: bold;
+}

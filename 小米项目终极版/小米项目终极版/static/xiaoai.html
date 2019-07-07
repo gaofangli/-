@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小爱开放平台-为开发者提供一站式人工智能服务</title>
+    <link rel="icon" href="//land.xiaomi.net/mcfe/shuidi/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/y3.css">
+    <link rel="stylesheet" href="css/lunbotu.css">
+</head>
+<body>
+   
+    <div id="qq_1">
+        
+            <div class="qq_2">
+                    <div id="qq_5">
+                        <img src="data:image/png;base64,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" alt="" class="qq_3">
+                        <div class="qq_4">小爱开放平台</div>
+                    </div>
+
+                <div id="qq_8">
+                    
+                    <div id="qq_6">
+                            <div id=qq_9>技能平台</div> 
+                            <div id="qq_7">
+                                <a href="http://localhost:8080/xiaoai" class="ww_1">首页</a>
+                                <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">控制台</a>
+                                <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">新手教程</a>
+                            </div>
+                        </div>
+                      
+                    <div  id="qq_10">
+                        <div id=qq_11>语音服务</div> 
+                      <div id="qq_12">
+                                <div class="ww_2">
+                                       <div class="ww_5"> 解决方案</div>
+                                </div>
+                                <div class="ww_3">
+                                        <a href="http://localhost:8080/xiaoai" class="ww_1">首页</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能音响</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能车载</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                                </div>
+                                <div class="ww_3">
+                                        <a href="http://localhost:8080/xiaoai" class="ww_1">首页</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能电视</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能穿着</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">儿童设备</a>
+                                    </div>
+                                <div class="ww_4">
+                                        <a href="http://localhost:8080/xiaoai" class="ww_1">首页</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">控制台</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">新手教程</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">控制台</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">新手教程</a>
+                                </div>
+                      </div>
+                    </div>
+
+                    <div  id="qq_13">
+                        <div id=qq_11>资源中心</div> 
+                      <div id="qq_14">
+                            <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                            <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                      </div>
+                    </div>
+
+                    <a href="http://localhost:8080/xiaoai" id="qq_15">
+                        <div id=qq_11>小艾论坛</div> 
+                    </a>
+
+                    <a href="http://localhost:8080/xiaoai" id="qq_16">
+                        <div id=qq_11>联系我们</div> 
+                    </a>
+
+                    <a href="http://localhost:8080/xiaoai" id="qq_17">
+                        <div id=qq_11>激励计划</div> 
+                    </a>
+                   
+                    <div id="ww_6">
+                            <div  id="ww_7">
+                                    <div id=qq_11>资源中心</div> 
+                                  <div id="ww_8">
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                                        <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3D4HbcSRTHzvs8ztaIbWCH5gATKts%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252Fskill%25252Fcreate%25252Findex&sid=xiaoai_open&_locale=zh_CN" class="ww_1">智能手机</a>
+                                  </div>
+                                </div>
+                                
+                                <!-- 登入接口 -->
+                                <a href="http://localhost:8080/login" id="ww_9"> 登入</a>
+                    </div>
+
+
+                </div>
+
+                
+            </div>
+
+    </div>
+<!-- --------------------------------------------------------------------------------------------------------------             -->
+    <!-- 轮播图 -->
+    <div id="mask">
+            <ul id="ul">
+                <li style="opacity:1" class="o_1">
+                    <div ><img src="http://land.xiaomi.net/mcfe/shuidi/39c00b9ab958be1fd5a9ba40811e96f9.jpg" alt="">
+                    </div>
+                     <div class="ningyu">技能开发平台</div>
+                     <div class="ningyu1">语音服务平台</div>
+                     <div class="ningyu2">小爱开放平台 - 用语音连接世界</div>
+                     <div class="ningyu3">水滴平台正式升级为小爱开放平台</div>
+                </li>
+                <li class="aa_1">
+                    <a href="https://www.taobao.com/"></a><img src="https://file.ai.xiaomi.com/anonymous/file/62638b8f1400400f8ce720e4" alt=""></a>
+          
+                </li>
+                <li class="nh">
+                    <a href="https://xiaoai.mi.com/incentive/index"><img src="//land.xiaomi.net/mcfe/shuidi/f5ed92998d4d67195d41a5497f4c3c97.png" alt="" class="nnn_1"></a>
+                    <a href="https://xiaoai.mi.com/incentive/index"><div class="ningyu_o">语音服务平台</div></a> 
+                    <div class="ningyu_m">小 爱 开 放 平 台</div>
+                     <div class="ningyu3_k">开发者激励计划</div>
+                </li>
+               
+            </ul>
+            <span id="al"></span>
+            <span id="ar"></span>
+            <div id="page">
+                <p style="background-color: rgba(255, 255, 255, 1);"></p>
+                <!--透明色白色-->
+                <p></p>
+                <p></p>
+                <!-- <p></p> -->
+            </div>
+        </div>
+<!-- //----------------------------------------------------------------------------------------------------------------------- -->
+       <div id="rr_1">
+           <div class="rr_2">
+               <div class="rr_3">领先的人工智能开放平台</div>
+               <div class="rr_4">小爱开放平台把小米在人工智能领域的技术积累对外输出，我们提供多种能力给开发者，帮助开发者实现更多可能</div>
+                <div class="rr_5">
+                        <img src="//land.xiaomi.net/mcfe/shuidi/eff0a4bd879a80749ff814796ef55c1c.jpg" alt="" class="rr_7">
+                        <div class="rr_8">ASR语音识别</div>
+                        <div class="rr_9">通过声学模型可以把用户的声音转化为文字，识别率高达97%</div>
+                    </div>
+               <div class="rr_5">
+                    <img src="//land.xiaomi.net/mcfe/shuidi/183c4c2ea3f22826919f0f4bbe8939ea.jpg" alt="" class="rr_7">
+                    <div class="rr_8">NLP自然语音处理</div>
+                    <div class="rr_9">我们提供可视化的自然语言处理建模工具帮助开发者解析用户的语料</div>
+               </div>
+               <div class="rr_5">
+                        <img src="//land.xiaomi.net/mcfe/shuidi/e6d75141f02135979fb1d3a3ef3de68a.jpg" alt="" class="rr_7">
+                        <div class="rr_8">海量终端设备用户</div>
+                        <div class="rr_9">您的服务和内容将会触达所有搭载小爱语音服务的终端用户</div>
+               </div>
+               <div class="rr_6">
+                        <img src="//land.xiaomi.net/mcfe/shuidi/65b5caa7dc843ca58d465ce92f1ec68c.jpg" alt="" class="rr_7">
+                        <div class="rr_8">丰富的语音能力</div>
+                        <div class="rr_9">小爱内置上百种语音能力，并且还在持续增长</div>
+               </div>
+           </div>
+       </div>
+<!-- //--------------------------------------------------------------------------------------------------------------------------------------- -->
+       <div id="tt_1">
+            <div class="tt_2">
+                    <div class="tt_3">技能开发平台</div>
+                    <div class="tt_4">将你的内容，服务，创意变为语音技能</div>
+                    <div class="tt_5">
+                            <img src="//land.xiaomi.net/mcfe/shuidi/59e697ca9b66512ae6310c167eac7d39.jpg" alt="" class="tt_6">
+                            <div class="tt_7">内容</div>
+                    </div>
+
+                    <div class="tt_8">
+                            <img src="//land.xiaomi.net/mcfe/shuidi/f791bfe75a0e119a3441373ec8da6a2c.jpg" alt="" class="tt_6">
+                            <div class="tt_7">服务</div>
+                    </div>
+
+                    <div class="tt_5">
+                            <img src="//land.xiaomi.net/mcfe/shuidi/0efa8edc34632ebcf53826b54e4a2e29.jpg" alt="" class="tt_6">
+                            <div class="tt_7">创意</div>
+                    </div>
+
+                    <div class="tt_8">
+                            <img src="//land.xiaomi.net/mcfe/shuidi/3fa04d30256e127fb242dae67205da93.jpg" alt="" class="tt_6">
+                            <div class="tt_7">智能家居</div>
+                    </div>
+            </div>
+       </div>
+<!-- //----------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div id="yy_1">
+        <div class="yy_2">
+                <div class="yy_3">完善的开发套件，帮助企业和中小开发者快速低成本创建语音技能</div>
+                <div class="yy_4">
+                        <div class="yy_5">
+                            <div class="yy_8">
+                                <img class="yy_7" src="data:image/png;base64,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" alt="">
+                            </div>
+                            <div class="yy_9">NLP交互模型</div>
+                            <div class="yy_10">小爱开放平台内置的可视化NLP建模工具，让开发者能够通过非常简单的配置，生成适合自己技能的自然语言处理模型</div>
+                        </div>
+                        <div class="yy_5">
+                                <div class="yy_8">
+                                        <img class="yy_7" src="data:image/png;base64,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" alt="">
+                                    </div>
+                                    <div class="yy_9">函数计算</div>
+                                    <div class="yy_10">借助函数计算，开发者可以把代码部署到小爱开放平台，由小爱开放平台提供运行环境和监控等整套服务器资源。开发者只需简单的编程即可开发技能</div>
+                        </div>
+                        <div class="yy_5">
+                                <div class="yy_8">
+                                        <img class="yy_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAACu5JREFUeAHtXA1sVtUZfs79+g+VHx20DR8/k43KzxSGoyurcREX2ZZgFhAwcaJsMyTbQLLFOAUENMaNTdyIxm0gjsThIAaS6cikmbS1q0ulQQrIxLW0TQuL/NhCv/599+x5z/1u268trPTetrTck57vnvtz3vM+z33P/e55zukHBClgIGAgYCBgIGAgYCBgIGAgYCBgIGBgoBlQvjZ45MwIfN48CcqeCFgTYWtudRhKTYDW6dymsb1UaKRB6TRosw+WG1luhEIjz0d4LcuqgdsanqyGpaoAuwraqsKo5NO4PeOyr357MNZ3Aktr09DYOpug5xIoM7cK01juu83eAFFKs62TbKuUJJeyXIq0xDLMzRLyBzxdG9ji6qmIRhfR6fuZv87oCsV7rNq4f4oRVUVw1YxAJ4JgVSOE89xnpOkIklMJNiGCeWMd0B+cZ2S2paI5wshUqYy4NEQxllEXNhFsmQgOM0oZ0ZjKYwld2o2S0H8y70MotB+54VPx5/tv7/8TWFIzAa1tj5Gw7xH89A5XVJRADsPCYdhWGRLUYWRFj2LKlKaOa/qhVFGRgtrQLLTpObDs2bAxh92cudPNVOo4yXwLiQmvImcCb2L/pSsTWFD9FSD6Mzq2jOQlGhcU/svt32BZ72CE/XfMnnKx/1y7BstlFaNx2foWbPvbrLWQ/o4ztRVaSe5uILQFd4U/ugaLvb60O4HSTVujL5E4cYbto4Ufb5G0lzE/XMQupnttfTAulGdwQXUev8hWEQN7DZIcN9Q7SAyt9rt7xxNYeHo17+ILbDCZpH3G7rkVial/RM74s4PBhec2S86OR2vkB+zma0jmLbTXzEB4AnmTGCD+JIdArS0UVu7g3XqYEWbT9FYkpW9Ezs31/jQzyFZKz49CY/0GerGaz3GLvep15E1+NIbVB+cKK7fhUIVGQeU5FFbc7YPF69OEYBOMglUw+5AUik7fiyi/EKAu8RmRy2fEUR/sXr8miqtn8RlfzC49EiF+8Xxj0rtenLX4brbWGLDUU8OePAEqASJYJbnYzU7fPixWm2eq6qQ/983EEKzVgdXB7gGCEBgkDwwIgR+Y+qpluQc7Q6uqankw5rCD3YP3Vt6RcfeZ+rZ+DvKAHe5JMNr6WYHZjt0DZmv8+RTcWptOE/xWaou+N+xfYwQjsQpmwe41mWfgHf8eK0O21/mSOZaKRz7flX6NknM3eTV+3dSXF2nBJNgEI7EazD44aAg0w5G7pqzgMGcNG2hlXovmhk/5svkUZDg0VJP4Lhgu158ymASbYCTW+DFs3wEaAturyxgxOYHPQQ68Zewoz4qWxirevTdQVJVHJ/xqt71J3wvio/gqPovv5nkn42ARExJm+jkOFt+7CJM8khP+hJ/foaLRSc7SyymkLqdTZ1FQcYB38fqVswoq5UvR6TUiZym1qz/lrO4EsnWTHP3s+yip+UWcoCqCQ9R+GPUUVA9VOIIqLG5V2YAKqraezaHEHCOo1ouganeo4wMoqF6ZQJdIR9Fdx911fM0RrfB+PoRF1qekjzsJ4E46b/5QRUn/UGWHpC8TQtCU9q2aPkn6lj2BXS9MG5TzJVPSrxJJP9rVb0r6qog+7ed4fp/fmp9LRU/bro70dE3HMWeuYQsPbIHMwDU0U1K35xIkMyeWgC8TaDaBMIvu6mqvUWLuMINmZyoEBT2oZVLPvVaEtXYbsbIj6J5km6U8V8rHSSnSk8sGa6bu2gjsxEHM4SIekuwkh9TJBDaR0RLmA3wio5VlMJLAaU1OaYJTmprbnqc1IzzPiSdObQINvL6G5SozrakYyeD0Znpy5WCRRZ+6pb4T2M0UDzjztcdYknxDpPjXmBsCsr8gAwI98hkQGBDokQGP1YMIDAj0yIDH6kEEeidQ1YiNpZs0h2Q3RurA6mD3gtpiCFKt4OhJ409LfqkzvBgbCnUFo2AVX13sXvy2uG50s1LqQw6/snUTDj+wObaoyIvV67SuYBOMglUwC3avrhqBdMWLevSlBuylAHCPGKTxAyELm3c/rTiDP/TTsmd1btTGOq21M4GmVP7IdCze+bjyvDxPLd5oG8lk5noVOr4ZP+beRt6h0YY2pY5xQP9aagp27fq5krWBQyY99Cs9LtKEhyhGPMLAmOE4ri5aChumr8O28k3aaD57N/CIh9ROoGvowef1mJYWPE6rK7kYOSvWcJtSeJ85n83lZ8/Hv575plnO66Fpf6s+8w+d8PH7+BoD4B4qYpLnMxCMWKKgahkl25OS8OIbT6oL0rIbOC7uvnrTjUDX0JK/cMnsCdzHCFzJY99l+DurVLlDhy5x5qGQxTISfSwhhPJb0nHydz9VzW79/tz+5Lc6+bMGTGuLYiaJkeiazWWfebzhI912+RhqZfmvjMDtuA0H9jwgS5I7kl8EXlHOijX4Npt8W56RjZfU3XJnuc+7q2+jYwtZXij9v5VLy+suqLbFG/UpRul/eK6O2zoyfYYE1zEq6qwQGmwLTUnMFN+buKS8acZ0mPXUx44jhUvOU6woUlpsbpntKNIZ7Zm0n0l7GWw7k/Yyuf1i3YXuC83FD5J2gpt86SlpI/GeH8842rtquiKBnWvFHNnHY5Kx7AWdFW1BLpdizmQkzuQhyVNJbDYBZss13PJDSk6KkmRJ7SF6GSgvcI7Jp4SLm9xQ4etGfIrtkyheoqhKo5yRV84lk+WhJBTvfkLVxlfo/71eEdjVjZije3lcskkrXtMpkWo1jdE2gaRmMvKyiDeTJyVncN8o0TyWwrIsCUiRslTmvkRiE/ebTFkhwrLo/meY63isjvu1JKuOUVmTGsbJnY+o/v1vADbcm9QnAnsyHAN0hOck3zCJL+NB8sJAQKAX9lg3IDAg0CMDHqsHERgQ6JEBj9WDCAwI9MiAx+qWMywCRM3waGvIVHexuti9OG5xzCoLKnGiiMrLDZJcrC52L7Atvgm+LAY4ht2x/DnNVanDOwlGwWpQxrB7QWzteRrbqAPtp5LyBeprxUs261Usc/w+vJJgEmyCUbAKZoPdI0xD1I9e1YkXzuAVCpIinoqudoSqxyZ7GvZ3FSI9tjfg1UUYtk5iEaNuPYm73eCD2j4mA6t+/5gRXT35FBdpSzfqRVwUupVETjZWlaqzNHbqJOzY86Q65amlAa685Hk9VbXgUVthBcVJkdRESa/ke9uaNzeo/X65E0egGOUdS+KvsqykGCpdmf/ywMRltdTijrBjHyShB0dnoJB3L7ZO11wx6B/sRWkXzyCPhC2grwsYBHe4TrFHHSV7r/BXbbazR/E3IPxL3QjsbHrZJj2PqvAPeWxp5/kGEtrMiiX8FpNV+kdDVIVHjcexgSJVyPr8LGZERQ23MYsS/hwKrjmMNP7Wg5Nk3oalN0MKf9i9Xnn+p0LXbtftVQl0L5ZJnLMXkMv9exmFCxidXyWhcaMYOmzzLlcQyKc0atRjzoEYNVmUZB6v54+nRHozJ0J9P5U2bhJlm/UyOUeSGStn8fitbH/KFdr/kG0dpJ/vjh+D4oGY5OoVgS6R7nbJb/RYdRk5jEB57ZFuLpnzIR0zd+61/bFll5QplI+Z5ecJjjICP9IjULJnrTrfH+1dzWafCOzJoPkmP4cvEVqYkSeRksVocOdFZFZtBCNUIiuFESSr9bvNifC8zIU08XyEpHDayZnVY/TJvG4tI7GWt6h6zM34xI9v0J5wBMcCBgIGAgYCBgIGAgYCBgIGAgZ6w8D/ANZ0UAfD4zjEAAAAAElFTkSuQmCC" alt="">
+                                    </div>
+                                    <div class="yy_9">存储&数据库</div>
+                                    <div class="yy_10">小爱开放平台面向使用函数计算服务的开发者提供数据库和缓存等存储服务（暂时免费），借助这个能力开发者可以非常方便的开发复杂技能</div>
+                        </div>
+                        <div class="yy_6">
+                                <div class="yy_8">
+                                        <img class="yy_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAwBJREFUeAHtnLFu2zAQho+CamXOVsB9hqwdtRXZs6Td/QjpWHRsHiF74SV7Vo1Z/Qw1kC2z5Rpl70hJMaEll4sFyf4JOCYlHXn8/J9MHWISoYAACIAACIAACIAACIAACIDA0AScDPjtl5/XG7olRyV5/3FoJwYdz7kn8lQVZ3Tz+7tbW8d2Am+7oZUnf27tbEr2jtzz7IwurBDzoDyB59xDUdDC2uHYIYZoq+nOe39Zb9wt+/vV4nMWwpZ7OAV4AkoEInMN0OSWZSxZe887duXtc+rm+g73+2y/Y9T1BABQzyyxAMAEh74BgHpmiQUAJjj0DQDUM0ss8qT1msbjek7bnSxAy+byimb5DX2emx+LXjP82K7RKTDCW/Ha8TqsH2UdJfXtbkVy7gSLDqAoz8szs3ug4sOn8JK6HIuqPDmE2hAuA6EiX3Qh+7heUP33Dx+P58IFL3+ufv7zL63D1+5/ZCHDdPiR4gg6BQ7l1YTG0Sqw4rldU72743tefCCXeixyrleGVkTPgQMf0AGUb9vt7gvf8y6bsI3uOfccvokP7OwYu9eFsCxVZvkF5w6X/HpqXstw7ESXMToFigQiKFMScoxKeqtPOgW+dZQjtgNA44cLgABoJGA0hwIB0EjAaA4FGgHq14HIBybIdQpEPjCBJw0dQOQDewC1IVyGHpAP7EDqFNiZodIS0CqwYkPkA1t6/K4DiHzgHrpY1YUw8oE9gDoFijnygQlEnQITUzSEAAAadQCAAGgkYDSHAgHQSMBoDgUaAerXgcgHJsh1CkQ+MIEnDR1A5AN7ALUhXIYekA/sQOoU2Jmh0hLQKrBiQ+QDW3r8rgOIfOAeuljVhTDygT2AOgWKOfKBCUSdAhNTNIQAABp1AIAAaCRgNOdNJ/i/7bnIbhbGviZj3s21mbvFcd50girpoOatQLqOLT2O3Lbd9iS42czd4jI23jHuXpTJFiCygw//AjP+eMbycUzBNoStW77HrkVTmC58BAEQAAEQAAEQAAEQAAEQOEYC/wEQEje8IEkGQgAAAABJRU5ErkJggg==" alt="">
+                                    </div>
+                                    <div class="yy_9">测试工具</div>
+                                    <div class="yy_10">提供在线测试，真机测试，模拟APP测试三种技能测试工具，方便开发者快速高效的进行技能测试</div>
+                        </div>    
+                </div>
+        </div>
+</div>
+<!-- //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div id="ii_1">
+    <div class="ii_2">
+        <div class="ii_3">技能创建流程</div>
+            <div class="ii_8">
+                <div class="ii_4">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABD1JREFUeAHtnS9sFEEUxntQQoJAVDQQMChUU4PDQFANyFqQBI0AU43AYYslRWGR5BQOgcCgSMqfBAEJoiEhsHxvbya5pre7b2bvzc7cfpu8vt7O2/fe/L6d7f3r3doaNxIgARIgARIgARIgARIggbERmMRMuKqqyzjuKewG7CJszNs3TH4KezSZTD6HgggWwMF/j0IbocVWPP4H5rcdI0IQFwhwAJPtNUxWwqg3YeBYwFUH5jBQ5KtUwjZ6+B62sKiJgI3fZ+ZdocqsQKGJY7mcKnS+K9M2BRhYSgpAAQYmMHB5rgAKMDCBgctzBVCAgQkMXD67FYAHNOdhdwfmkm/52Ed8mhkh92mYPMck22PNMbnEzFqu7J8hsCyE3M9c/u/wV3KBq+nDksux+qGFEH/hWIKGG4h74HL/hr/eEJbtbtd7XisATd2C/YQ9bCPn4v7Ay3avLTbXsVnrmV2C0NQu7B/sL+z2InjYfxUmIsn2ZFFMCftm7WcmgIBDY3uuuV/wW/MwcXsD9tGNv4IPfoVuPt+Qv7s55HUJ8kDQ3AvX4Cf4TdkPfwb2xu1/B3/Ox2u8Oy6Z6+rJN9IV13s8phCOOQt7644VL7efu9tf4C+FNuaOTea6+vONdMX1Ho8thOM2YbICZPswc9UR/LXeTWWQwM0nz0uQ54Mmt2Dyt0A2+eO868dK9/WM8MN8Hn0L4fg7MLlXtGfebMICfbmoW11GIeS4qS5YSOAyuKimmqyQqpt8gmK5ZPdsaD5I03RCAdJwbqxCARrRpBmgAGk4N1ahAI1o0gxQgDScG6tQgEY0aQbMBcD94x3Yob+f3OIlZifNtAuu4gFqp4B4DXyf9lCbN7c4PwHzvkILaeO1ceYTjCwQ27/5JShyPqM5bL3UmcoZl7J3/POdyculXAEpVVxQq9gVYHVGLmBkuosrwBRvd3IK0M3INIICmOLtTp5CgPrzE/z95CbvWg3+rIXuKeYdkUKA+0CgASsxEsutjYA/g9tixjgWyyXFChijHuo5UwA1KptACmDDVZ2VAqhR2QRSABuu6qwUQI3KJpAC2HBVZ6UAalQ2gRTAhqs6q7kAeITId0Wo5VAEhj7kRjzfFaHgqg6JEKA+pKtAaN6ufKnHY/s3vwSlBlFavfXSGvb9yhnnf0/hrV6D5gpIoV5LjWJXgNUZ2cLKZIgrwASrPikF0LMyiaQAJlj1SVMIUL8g7+8nN3nXch2rb7/8yBQC8F0RyzxP/Bm8zJyrkCuWS4oVsAp8zeZAAczQ6hJTAB0nsygKYIZWl5gC6DiZRVEAM7S6xBRAx8ksKkYA+e5E+dxPfpGbk2WORc0mRK0YAaauwP5c4ZCaKxXrGOy7SU1DJxf8v6+uIL/M8yTpqC/zDF4BeCFEnjDbhr2EBS+5k30Xv0cYCAv7b1ItHhUnQAIkQAIkQAIkQAIkQAIkIAT+A4oLq/Ol6+nqAAAAAElFTkSuQmCC" alt="" class="ii_5">
+                            <div class="ii_6"></div>
+                    </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABWFJREFUeAHtnc1qFEEQx12RgODJUxQJePAmhOALeFLQB/AgiB9gbrkp6BME38DoOYIYIR485wU8eBRUEIJ68gX8WP81dGdnJ9OzXdXVO72z1VDZme7qf1f/amdqN9mwJ05YMwJGwAgYASNgBIyAETACRsAIGAEjsEwERpzNjsfjC/B/BrsKOwezNiHwA4cHsMej0ehw0t19FJ0AB/8j5M52Sy796C8QWOckIYoYErALo/YeRleCtRoBYuLY4GG8WxvSOYTod1JGM/gBpMSmIgRWARd5txMeyxWWYyaX08nlwFLuLpMTgIyvwLZhdIsio+OV5papz42p+DX1B38OeFVrbhSdBLzZtnP7NfVLOfcg1OMJCaOfntHUbsBuVkctRQj9qn7qG1QSdPuPrpXJt6Ba3LHvKbT9aiEM+DCUWfTbLaiW9xCnmovsMCSMftXiGqsn20X+WSFOyStnE06OrCwBLifNGlAWiQWJxhLQc6IsAT0n4BR3fbrHceeYf5iAXQFhNnMZYV8B+END7BupuWygtEW4dwi7AnrOoCXAEtAzgZ6XtyvAEpCHAIrhCLaRR70HVaru1HpYWrQkQr1eBTwevxEJCCe5NaM5DfkWtOkYfhCyLGsaN7N9Ro9YV2G/na3OMxYup6FeAQ8And5k7uN94895JiDbWtzMZgtkhjDipOL71cV7bYa7+nA2TtmElREgTl98KQlz/7UJl9MQb0G++L7A7Sf61Yjy80BfjptZ/QhmKyLG3oqvj47LaWhXwH2AGFbxlWbWz2t7xLPkHmytbUzaBz1W8YX/Rdgd6XqhedCsWmhc3K8lDJ0tp/UZj6fFATUmQiu6+ML3DOwb7B/M14yGouwUelWTze6YpSEMDQ8/x8bfuhifdGzjaChXLBqcjoKsH6QK59owxQhtUfHNEVMqpzrzqeMU4RwbrQcH/acuPvYv3rRjc3Hov/yVCmtvsA6ejqHPKr7N+U5D7dYo5dQW11SfRDg3fAcvuvhObahxohWrhFMjlPZTrrDWhtqjmfRinT0XW1Txncw8fqQRs4ul31uQxkaO4zneg3VExfe40qQnNfbeE4AALsPoZSa115Ot6R9BX1x8u6KB7j4Fj/YHdqnLtzlWzcKPZn/yOUcYvpswn4St5MVbBKCfXHxbZKmoP4JR+wu72+bT1VfNxI8uH9EYVxj+WZMAfZXiW4cBzST4pMXlVF+/81gijDnZkgBtteLrwCXDdzoVqk6YkkFJAlxA6klALKrFF3oq8ItMQI4kAJha8dWEX2wCNJMAYGrFVxt+0QnQSgKgqRTfHPCLT0AjCZ8Agf33AMxJLr7QoL8HfIGJXmrSPkINmlULjYv7NYWhdRt2nhsM5qgVX2itwW5xY5jlD82qzfJjj2cTZkSCGHzx3WNMm6trNk7ZhCPxYH214hu5pMgtG6dswpHbxPoqxTdyObEbl9MifSzloaMyrA9cxaaam9lY3Rg/rK1WfGPWS/HhclqUK8B/4OrdYD7tzM0yN7Nc/ZA/1l2I4uvjz8Ypm7CPPPCIdRei+PrwuZwW4Rbki+/LQX3a2Wcs9pGb2VjdLj+suTDF1++Dy6n0K2Dwxbf0BFxxz6zn/hm2tI/cS0sLFNbdgM39X42k8WfjlE1YutNC53E5lX4LKhSzXliWAD2WIiVLgAib3iRLgB5LkZIlQIRNb5IlQI+lSImTAPqeLPrso32JTwB1jU3FKuA21c1JwIGbuVNbaEpsmU8ckx3H4CCWRfQ7TLeAfZHbbLKsL3KLvgLwq+BDrL0OewWLvsRmxzsYD2JCbPS/RW8wiGwjRsAIGAEjYASMgBEwAkbACBgBI2AE/gMTDuBZTTYb/wAAAABJRU5ErkJggg==" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,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" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,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" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_7">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAvpJREFUeAHtnMFtwzAMRZOiE/ScHbpvBsgIPWeF7lC0t67gkoHkg13BZkyGVvsEBHZUmV9833ITh/DhQIMABCAAAQhAAAIQgAAEIAABCECgQWAYhpO8LvL6lJdX01ga89SQde9WraKZnsdxbXYF0LuMf1l7jHHct4x/PR6PH8bjTMO7zaOcMbIZ3koSpsRbgzVWiSmb4dIa59WvGiokra88ZMJ1ubpfKiS2mqDt0wt0K45q3JQCLnkSNy6PMumhldjW/uj4dX7ROtb4T3VibHMIYEAO91EVA0YUOTsYkMN9VMWAEUXODgbkcB9VMWBEkbPznCNrV9XP15aj5JbG6tsslrjeY1kB3kSN8bpZAb2c0Ub+B1aAlZjzeAxwBmoNhwFWYs7jMcAZqDUcBliJOY/HAGeg1nAYYCXmPN5iwJdqyxfSkJ8kS143Deccp+F2lYfFgGvJ5OxpQol1LrGrRnkbsqkau8hj9f2SAoqylOVzIq68Rk2Ql5Z11MoC2d3cNJbGdL+0tVipVtHsOo9WfvRDAAIQgAAEIACBf0xAPubdWu8IovOwfBPuneUu548BybZgAAYkE0iWZwVgQDKBZHlWAAYkE0iWZwVgQDKBZHlWQLIByEMAAhCAAAQgAAEILBKQX4f+REHTnvKgNHHxtDMPiClNlLNGywe19fWkqQk/mX+fecjEax2lew2nxI570tTcgD7zEEi3NsnH7W10/DrRaB1rfO4FVWeSthiQBL7KYkAlkbTFgAXw1mv6QrjZnzFghuSxHRjwWN4zNQyYIXlsRzfPC9JrsQXNvc8XaulM+++NP82BFTAl8uD33awArzNuie9Up5750/6lOGv/zgpYSypoHAYEgV0bFgPWkgoa183/gKD8F8NGXfurMCugkkjaYkAS+CqLAZVE0tZiwK6eNLWB167ysBhwLUnv4klTGwzYVR6UpWxwsnFoTFmKisnXcgqz9N7E702rLbTkxb1qpGE03RCAAAQgAAEIQAACEIAABCAAgQ4J/ABYvJLBSM2FcgAAAABJRU5ErkJggg==" alt="" class="ii_5">
+                </div>
+            </div>
+
+            <div id="oo_1">
+                    <div class="oo_11">认证开发者</div>
+                    <li>注册小米账号</li>
+                    <li>实名认证为小爱开放平台开发者</li>
+            </div>
+            <div id="oo_2">
+                <div class="oo_11">创建技能</div>
+                    <li>选择技能类型</li>
+                    <li>填写技能信息</li>
+            </div>
+            <div id="oo_3">
+                <div class="oo_11">开发测试</div>
+                <li>建立NLP交互模型</li>
+                <li>配置服务器端口及其它信息</li>
+                <li>设备调测</li>
+            </div>
+            <div id="oo_4">
+                <div class="oo_11">提交审核</div>
+                <li>提交技能，等待审核</li>
+                
+            </div>
+            <div id="oo_5">
+                <div class="oo_11">技能上线</div>
+                <li>审核通过后，技能上线</li>
+            </div>
+
+           <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3DPzBbfU%252FbvYB8oT1lO%252FveJNYigyA%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252F&sid=xiaoai_open&_locale=zh_CN"> <div class="oo_12">创建技能</div></a>
+    </div>
+</div>
+<!-- //-------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="pp_1">
+            <div class="pp_2">
+                <div class="pp_3">语音服务平台</div>
+                <div class="pp_4">让你的产品搭载上小爱同学语音服务</div>
+                <a href="https://xiaoai.mi.com/device/voice" class="pp_5">
+                        <img src="//land.xiaomi.net/mcfe/shuidi/0a5702ee5da6648769a3a815c674dbfe.png" alt="" class="pp_7">
+                        <div class="pp_8">音响</div>
+                        <div class="pp_9">你可以直接和音箱对话，利用音箱来帮你完成包括闹钟提醒、智能家居控制、语音游戏等创新功能</div>
+                </a>
+                <a href="https://xiaoai.mi.com/device/tv"class="pp_5">
+                    <img src="//land.xiaomi.net/mcfe/shuidi/c36f72d4a6bbff50a7152bb235fa0ca2.png" alt="" class="pp_7">
+                    <div class="pp_8">音响</div>
+                    <div class="pp_9">你可以直接和音箱对话，利用音箱来帮你完成包括闹钟提醒、智能家居控制、语音游戏等创新功能</div>
+                </a>
+                <a href="https://xiaoai.mi.com/device/smartwear" class="pp_6">
+                    <img src="//land.xiaomi.net/mcfe/shuidi/1bd6c27325a042c3260b112cc5cfcbfe.png" alt="" class="pp_7">
+                    <div class="pp_8">音响</div>
+                    <div class="pp_9">你可以直接和音箱对话，利用音箱来帮你完成包括闹钟提醒、智能家居控制、语音游戏等创新功能</div>
+                </a>
+                <a href="https://xiaoai.mi.com/device"> <div class="pp_10">查看更多</div></a>
+            </div>
+            
+            
+    </div>
+    
+<!-- //--------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="yy_1">
+    <div class="yy_2">
+            <div class="yy_3">一站式智能语音接入服务，提供技术专人对接及权威检测报告</div>
+            <div class="yy_4">
+                    <div class="yy_5">
+                        <div class="yy_8">
+                            <img class="yy_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA19JREFUeAHt3L9rFEEUB/D3zjOXFLEQLUSbtKbwLxB/dIo2YkI0VikELYUYEBLCHQiJYCGIYJFG5EICNqKWRvwLLFKnEQQVmzS5+OM5b02OLMzdzfLu9pffq7J782ZnPvtmZ/fuMkR4QQACEIAABCAAAQhAAAIQSFuA9YDTS3KqtUPLxHSeRE6k3YhUj8f8hYQ2asN0/+Ucf7YemxVvd4c+CclRa2VFimfiH0PDdMaKWI0yT/GY39VqdNtaYd4Ro9HWoucicqm1w8uuvTctba5Ew9bV8D/gKZQmiPY1QtNLlvFV2b/mlT3zDjq1+9qH633lYMX4O7kAAJObxSIAGONIvgHA5GaxCADGOJJvADC5WSwCgDGO5BsATG4WiwBgjCP5RjU45MOWBJfNQ8FzY9EnTYNuCjLQKByegSmdUWN/Ug9HBhrJAQhAo4AxHBkIQKOAMRwZCECjgDE8/D4QTyJeagxhL0v4zvAMxJOIVxUZ6GUJ3wnAcCtvSQB6WcJ3AjDcylsSgF6W8J0ADLfylgSglyV8Z/h9oPVJpKT3kaXLwOkncmSyLrfCc8hWMjwDC5BBiyKVzQY13a9PL0825OTaPC/ZeHpHlyoDHd4jxXO/f/7uvoNd6919e4nSALphO+Pw7jm83UNM19bnecvO07uGUgBO1eWsCD3T7jLTndUF/ti76/0pUXjAiYaM/RZ65f5NY4iZH68t8Ep/aMJqyS3g9brcnXgox7t1Y2ZJRl3mvXZ4xxzem/F5mu1WfhDv5RJQ8Ujkqfyi950QdcbdbtGqKzfuxu3maI1uLDL/GQRStzpzCchVWlcUxemEeHDGdde9qytzvN2to4N6L5eA6w/4m0O80AkxqxnXdxJyCagN7YSY5YxbKEAfIv2kjSxn3MIB7iOOjNBFHc5utj29N+O+zWLGLSSgNvrFLH9tXxP/zbhTWcy4hQXUhus1UTOxepiuZDXj+gDDP43xRae8TzMx5UP2PFxuZ+GeLc9JAQAaTwQAAWgUMIYjA82Auo6Ke+lqFsa6ChPe7ute3y0Nd4tO0IZW0HJLgbQrttSY89j9ZU+iZu713dJkLLxjXL2ookuA6Ao+7tuEpnvejIaz5YzkPjbqIzf7sWpR7vuKBkIAAhCAAAQgAAEIQAACJRX4C9LkDSCWKiQZAAAAAElFTkSuQmCC" alt="">
+                        </div>
+                        <div class="yy_9">语音认证</div>
+                        <div class="yy_10">拥有国内顶级声学测量设备和声学实验室，模拟多种用户使用的声学场景，保证远场语音设备交互的整体质量，提供权威检测报告及产品改进建议</div>
+                    </div>
+                    <div class="yy_5">
+                            <div class="yy_8">
+                                    <img class="yy_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAQBJREFUeAHt2s0NgzAMBlBALNJJugT7IPbpEp2km7ScfEc25Ud5XHzhU8JLIsUSXechQIAAAQIECBAgQIAAAQIECBAgQKAVgX5avr87f+xrHvoz5z+cObixCRAgQIAAAQIECBBoVOC/bdD7c4828flIO2jliidnLOa3xQsrvG2A5Fs7nBA7MGkfMYAhkawAk3ARAxgSyQowCRcxgCGRrACTcBEDGBLJCjAJF7FjOpEdbvwx4atVO/BqK2I+BAgQIECAAAECBFoQ8IdqcZW1ckVAcQIECBAgQIAAAQIECBwvoBcumuuFi4DiBAgQIECAAAECBAgQIECAAAECBAi0I7ACCzIUyCG2qpwAAAAASUVORK5CYII=" alt="">
+                                </div>
+                                <div class="yy_9">快速接入</div>
+                                <div class="yy_10">覆盖多种接入方式，打通小米开放平台及小米IoT开发者平台，可快速接入应用程序及智能设备</div>
+                    </div>
+                    <div class="yy_5">
+                            <div class="yy_8">
+                                    <img class="yy_7" src="data:image/png;base64,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" alt="">
+                                </div>
+                                <div class="yy_9">语音技能</div>
+                                <div class="yy_10">基于产品硬件方案及形态为你推荐适合的语音技能，“小爱同学”拥有近百款自研精品技能，同时设备厂商可以根据需求定制只属于自己设备的技能</div>
+                    </div>
+                    <div class="yy_6">
+                            <div class="yy_8">
+                                    <img class="yy_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAACbZJREFUeAHtnAtwVFcZx79v2SSEl0KrlZaK0k4HCg6KaBktuImFFJnq0GGTQCli69DRSq3VogWyQBKggNaREbXVKQy0CWFjAMWiFUnERzstjlO1FnUUlEyBFmsqSF67e/x/d/cuG9zN7t3dc++Nc+/Mzd7Hued853e/x3ndEHmbR8Aj4BHwCHgEPALOEGAnir17mxrZ3U13sKIZEOAS++j4lLX0zHrmmBPyFFKm7QBr69XsKNFOpdQNAwXnX5f6aHlTHf9l4HV3n9kKMNigPk4xCitSpUz8gmL6PjGV49oyIjUJ187jvDIc4t+7G9tl6WwDWL1B3aGIWgWej/hrN4dolWmyYtI93dQCrVzAzK/7iSqaQ/zyZTHde2QLwOAGtQAI2gzNY34MGvbFK5Gs3K7KznTRflJqPhG/xiVUEV7Nf7wyndvOtQOsblAfiylqA5gygPl66zp+KBMEgXi2iw5AE2+HJp7zMVW01PErmdK74bpWgPB5tytFBwQe/Ns3wuv4wWyVTkA8CIhVQwGiNoDweVUxpoOG5jFvbw3x57PBM+8v36mGXzxtPDsP4M/6Yc7Nq/mEed9Nv1oA1jSoebEYHYTPGw4t+iZ83kqrlRaI/zlNP4AmziXmMwxzDtfxn6zmozu9r9gFIGDMNeHB5+3IB57ItOtT3EOj6BN4AUegxePhCtprNqmbii1vofkVVQMRMG5DRUVryn3M39oX4vsLFTD4mCqni3QIeVbCnF8t8VHATY3tomkgAkalCQ8m952WOvpcofDk+fBD3D32GnT7mNvhEq7thyYGN6sbi5F3MfIoigYiYFSgE3sIvYkRaCQ/3hKiz6DCaDcXb1vxuBrxxjn6Ecw5ANfQOQyaiCbOX4tXQn45FayBtQ0qYMJDxb6rA55U7Yn7+NK4a0h6Kj/Hi5oQjVHHks1qUn7VLt5TBQEM1quPRGLQCtE85u+FQ3RfsTUvtaoCcXg5IBIfE4j9/c5DzNuEqxvVHBWjZ+DcR8LnPRmuo0/rhJcKMjEcdhjmPBsw/0EwZzRxTqamses4L4CJIanDAg8+byfM9l674JlggjvUKDpPhxFYbsUL/Dsa24G9j/Ap875dv5ZNONiobo2quOYB2i6MqtimealQwvfzRbqa5kOGX0ETJ0bEnBvVxNQ0dhxbAlhdrz5MUeOtj4LP2z21ju5d7+AoskAcXWZAfE4g9kepI/ioeqcd4Mwycjbh2kb1IQSMH0PQ0fA7e6aGaHlaeM93TqC+yFYUEEgU0kGl/lU0a0KnWWixf+/ZokZf6KFnYc6zoJEnqRQ+8SvwjTZsOQGsaVSz0Gx4VuDB3zw1rY4+OQi8l5Bu3ADZmd8AxOk6Id61XY3p7TJkvAXNqb/5h8EnruXTA+TQcJLVhBEwbolF6SeG5jE38eQMmifCieYZ8PgwlZVcb+yEY7kW10oNVYhn+fQD/G8upSpYxwto4kzCC2+/a4uaoK3ARMaDAkTA+CAChpjGGLzVZppMy8LVjDmhjFvAuFPmX2Fom5itHMe3+L3EiY4fmO2bVEbzYMYvooVwQ18vfGKjuk5HWWaeGQHW1KsPYLLHgIeAsZen0N1Z4Jl5OvorEEeOpnl44ccFIoKeVohpASJgzDQ0T6m3wOftU5NpaY7wOgx6vZEnSIKJ7HIc3+L3Eic6f3Z9gbtGjaG50MTfwHpuRIO/vXaLulZHmf8TRNA9ez9GVY7Aj7wVbzE8bQ4tWV/BkZwKj0fgQYNIYsi+GW9uc0uIX8wp3zwToa88tr+PjgAiJvD5z2V+Cjy1hs/kmV3axwZoYM1GNQOpfirw8PZaLcGT7MXnSbRl+EuMIif25tQIfO5NehCmtRATTb9Eu/KBtFIV6WLTI/yvklK6DXL8FhBv6o1iKGyrekeRsjeySWogou37EB1+hsqNRYFt02ZTTc6aZ0Gi4D5Vqk7QNkRmAx5e1H74rHvE7CxkYykpBmXH0QXUjdR7YVUnuBzTA6v4rKVMMiQ2AAY3IuOIUcA4qRAGMGsw8tGf4ZmiXMbQ/0IMGD6Z0PaTMIUanSa9bJO6qlvqqNR01PEVtBMrmtfwuUIr40O0na6ihp8QeAfsgCdCY4pzPxYVzUCZ0uR4t26T3r2a/1nup49CA3+H8qZEInQUozpvLxQgL6pX52FOV8FsD2LAMqhb864U2G6TXvxVdXXkEh0FxPegzi+Xl1Plnof5tSvlyvXcJ/CgBT9ED6PabngiJJpHfTJnjCh5J7SjCxVbeOkCfTZZAYnsx041YX81sTcZzaNkAmsHzV/i8/4RJBNUf0Ddp2JNTpu1HAamhuvhHehhLJKKpN5atCGmZE+9pvM4adLE3755NslgBBmg+iLSLFqMfXxiX4xu4Uu5QkxXD4FIJYAoQ2FEBQWvZBQ2BE75Y8JrXYcVKk5tonkCT/rTZpfQaJhjAZI0lea8a0k20XTXY0A7MJswDtwPGGU61LfOpb5uB5hLHRxN43aAHQYdh/vWg70hLAZ18SYj2X2RKvjB+dTbf3lwND5Au8oNkrtKA6VhG9yk3pYEk0PfOpnWoQPXaKCAw6cPR4UDjmV57+sGk/hcStZo6xA/TEm7YBN4KkLtMNWpLhDHkgiOAxwAD10r9huLy+PaZ6kqziR2FOBQhyevzDGA/w/wHAWYNLghaLZJ2XGgPwrH50lkcCCQKNhYqRCexZ1otlT29JNKRtxEgqH0oxdg+kkmGU2pwmjK9D2AOJRgpZNVrw90cKVCusrquKYXoGm2Lh5NKRSqboCFyuf653UD7DAIZBlNsWMRkK43oTeI5DCagjkQDtbTc1gRofBhxAGfj9omr6Vj682FmxmiuM6lclZg69XAHEZTlm6l6/AdHDiq62OkVmJNzqFTu7BEUrbLUTzvORErMPJJq1cDRaIsoylPf5k7AW9ibQPPxPcmd0ILS4zv5OTZAVE8sUxO3IGMD8bXGzo+SqMfoIDIsmF2TGb/ZKGR7KlbwDgxo7icPN+5IjG4Gr9nJHDuj14Tdq5etpXsdoAdBoksUdw2WmkKcoUJp5ErfimHKJ7xWZtuuFsDc4jiNnHKWExmDZQFklhOsXSjGl/sVZ0ZpUl3I0sUT/eIeU1k74kgPkldNG0ZNRDrOY5LmX3GfxXSVLrmbE3ZzbroKC6jBg4j2hYlXoAF2vX4lJ/w74Z2O6qJFmovmifwRHaswopJXSw8binpoAuH8Bn/GnzqUI+lsRk11VJpNicWeOjl1OF/N2zSVfSgAKXQxKetD8OTzBSfqEuQouYr/yYFLkg0b2+If1HUvL3MPAIeAY+AR8Aj4BHwCHgEPAIeAY+A4wT+C/lGUmSnG7XuAAAAAElFTkSuQmCC" alt="">
+                                </div>
+                                <div class="yy_9">智能家居</div>
+                                <div class="yy_10">连接家与未来，接入小爱智能家居语音服务，可控制家中的智能设备，实现声控照明、调温、加湿等，从此彻底解放双手</div>
+                    </div>    
+            </div>
+    </div>
+</div>
+<!-- //------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="ii_m">
+    <div class="ll1">
+    <div class="ii_i">
+        <div class="ii_op">语音服务接入流程</div>
+            <div class="ii_8">
+                <div class="ii_4">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABD1JREFUeAHtnS9sFEEUxntQQoJAVDQQMChUU4PDQFANyFqQBI0AU43AYYslRWGR5BQOgcCgSMqfBAEJoiEhsHxvbya5pre7b2bvzc7cfpu8vt7O2/fe/L6d7f3r3doaNxIgARIgARIgARIgARIggbERmMRMuKqqyzjuKewG7CJszNs3TH4KezSZTD6HgggWwMF/j0IbocVWPP4H5rcdI0IQFwhwAJPtNUxWwqg3YeBYwFUH5jBQ5KtUwjZ6+B62sKiJgI3fZ+ZdocqsQKGJY7mcKnS+K9M2BRhYSgpAAQYmMHB5rgAKMDCBgctzBVCAgQkMXD67FYAHNOdhdwfmkm/52Ed8mhkh92mYPMck22PNMbnEzFqu7J8hsCyE3M9c/u/wV3KBq+nDksux+qGFEH/hWIKGG4h74HL/hr/eEJbtbtd7XisATd2C/YQ9bCPn4v7Ay3avLTbXsVnrmV2C0NQu7B/sL+z2InjYfxUmIsn2ZFFMCftm7WcmgIBDY3uuuV/wW/MwcXsD9tGNv4IPfoVuPt+Qv7s55HUJ8kDQ3AvX4Cf4TdkPfwb2xu1/B3/Ox2u8Oy6Z6+rJN9IV13s8phCOOQt7644VL7efu9tf4C+FNuaOTea6+vONdMX1Ho8thOM2YbICZPswc9UR/LXeTWWQwM0nz0uQ54Mmt2Dyt0A2+eO868dK9/WM8MN8Hn0L4fg7MLlXtGfebMICfbmoW11GIeS4qS5YSOAyuKimmqyQqpt8gmK5ZPdsaD5I03RCAdJwbqxCARrRpBmgAGk4N1ahAI1o0gxQgDScG6tQgEY0aQbMBcD94x3Yob+f3OIlZifNtAuu4gFqp4B4DXyf9lCbN7c4PwHzvkILaeO1ceYTjCwQ27/5JShyPqM5bL3UmcoZl7J3/POdyculXAEpVVxQq9gVYHVGLmBkuosrwBRvd3IK0M3INIICmOLtTp5CgPrzE/z95CbvWg3+rIXuKeYdkUKA+0CgASsxEsutjYA/g9tixjgWyyXFChijHuo5UwA1KptACmDDVZ2VAqhR2QRSABuu6qwUQI3KJpAC2HBVZ6UAalQ2gRTAhqs6q7kAeITId0Wo5VAEhj7kRjzfFaHgqg6JEKA+pKtAaN6ufKnHY/s3vwSlBlFavfXSGvb9yhnnf0/hrV6D5gpIoV5LjWJXgNUZ2cLKZIgrwASrPikF0LMyiaQAJlj1SVMIUL8g7+8nN3nXch2rb7/8yBQC8F0RyzxP/Bm8zJyrkCuWS4oVsAp8zeZAAczQ6hJTAB0nsygKYIZWl5gC6DiZRVEAM7S6xBRAx8ksKkYA+e5E+dxPfpGbk2WORc0mRK0YAaauwP5c4ZCaKxXrGOy7SU1DJxf8v6+uIL/M8yTpqC/zDF4BeCFEnjDbhr2EBS+5k30Xv0cYCAv7b1ItHhUnQAIkQAIkQAIkQAIkQAIkIAT+A4oLq/Ol6+nqAAAAAElFTkSuQmCC" alt="" class="ii_5">
+                            <div class="ii_6"></div>
+                    </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABWFJREFUeAHtnc1qFEEQx12RgODJUxQJePAmhOALeFLQB/AgiB9gbrkp6BME38DoOYIYIR485wU8eBRUEIJ68gX8WP81dGdnJ9OzXdXVO72z1VDZme7qf1f/amdqN9mwJ05YMwJGwAgYASNgBIyAETACRsAIGAEjsEwERpzNjsfjC/B/BrsKOwezNiHwA4cHsMej0ehw0t19FJ0AB/8j5M52Sy796C8QWOckIYoYErALo/YeRleCtRoBYuLY4GG8WxvSOYTod1JGM/gBpMSmIgRWARd5txMeyxWWYyaX08nlwFLuLpMTgIyvwLZhdIsio+OV5papz42p+DX1B38OeFVrbhSdBLzZtnP7NfVLOfcg1OMJCaOfntHUbsBuVkctRQj9qn7qG1QSdPuPrpXJt6Ba3LHvKbT9aiEM+DCUWfTbLaiW9xCnmovsMCSMftXiGqsn20X+WSFOyStnE06OrCwBLifNGlAWiQWJxhLQc6IsAT0n4BR3fbrHceeYf5iAXQFhNnMZYV8B+END7BupuWygtEW4dwi7AnrOoCXAEtAzgZ6XtyvAEpCHAIrhCLaRR70HVaru1HpYWrQkQr1eBTwevxEJCCe5NaM5DfkWtOkYfhCyLGsaN7N9Ro9YV2G/na3OMxYup6FeAQ8And5k7uN94895JiDbWtzMZgtkhjDipOL71cV7bYa7+nA2TtmElREgTl98KQlz/7UJl9MQb0G++L7A7Sf61Yjy80BfjptZ/QhmKyLG3oqvj47LaWhXwH2AGFbxlWbWz2t7xLPkHmytbUzaBz1W8YX/Rdgd6XqhedCsWmhc3K8lDJ0tp/UZj6fFATUmQiu6+ML3DOwb7B/M14yGouwUelWTze6YpSEMDQ8/x8bfuhifdGzjaChXLBqcjoKsH6QK59owxQhtUfHNEVMqpzrzqeMU4RwbrQcH/acuPvYv3rRjc3Hov/yVCmtvsA6ejqHPKr7N+U5D7dYo5dQW11SfRDg3fAcvuvhObahxohWrhFMjlPZTrrDWhtqjmfRinT0XW1Txncw8fqQRs4ul31uQxkaO4zneg3VExfe40qQnNfbeE4AALsPoZSa115Ot6R9BX1x8u6KB7j4Fj/YHdqnLtzlWzcKPZn/yOUcYvpswn4St5MVbBKCfXHxbZKmoP4JR+wu72+bT1VfNxI8uH9EYVxj+WZMAfZXiW4cBzST4pMXlVF+/81gijDnZkgBtteLrwCXDdzoVqk6YkkFJAlxA6klALKrFF3oq8ItMQI4kAJha8dWEX2wCNJMAYGrFVxt+0QnQSgKgqRTfHPCLT0AjCZ8Agf33AMxJLr7QoL8HfIGJXmrSPkINmlULjYv7NYWhdRt2nhsM5qgVX2itwW5xY5jlD82qzfJjj2cTZkSCGHzx3WNMm6trNk7ZhCPxYH214hu5pMgtG6dswpHbxPoqxTdyObEbl9MifSzloaMyrA9cxaaam9lY3Rg/rK1WfGPWS/HhclqUK8B/4OrdYD7tzM0yN7Nc/ZA/1l2I4uvjz8Ypm7CPPPCIdRei+PrwuZwW4Rbki+/LQX3a2Wcs9pGb2VjdLj+suTDF1++Dy6n0K2Dwxbf0BFxxz6zn/hm2tI/cS0sLFNbdgM39X42k8WfjlE1YutNC53E5lX4LKhSzXliWAD2WIiVLgAib3iRLgB5LkZIlQIRNb5IlQI+lSImTAPqeLPrso32JTwB1jU3FKuA21c1JwIGbuVNbaEpsmU8ckx3H4CCWRfQ7TLeAfZHbbLKsL3KLvgLwq+BDrL0OewWLvsRmxzsYD2JCbPS/RW8wiGwjRsAIGAEjYASMgBEwAkbACBgBI2AE/gMTDuBZTTYb/wAAAABJRU5ErkJggg==" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,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" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_4">
+                    <img src="data:image/png;base64,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" alt="" class="ii_5">
+                    <div class="ii_6"></div>
+                </div>
+                <div class="ii_7">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAvpJREFUeAHtnMFtwzAMRZOiE/ScHbpvBsgIPWeF7lC0t67gkoHkg13BZkyGVvsEBHZUmV9833ITh/DhQIMABCAAAQhAAAIQgAAEIAABCECgQWAYhpO8LvL6lJdX01ga89SQde9WraKZnsdxbXYF0LuMf1l7jHHct4x/PR6PH8bjTMO7zaOcMbIZ3koSpsRbgzVWiSmb4dIa59WvGiokra88ZMJ1ubpfKiS2mqDt0wt0K45q3JQCLnkSNy6PMumhldjW/uj4dX7ROtb4T3VibHMIYEAO91EVA0YUOTsYkMN9VMWAEUXODgbkcB9VMWBEkbPznCNrV9XP15aj5JbG6tsslrjeY1kB3kSN8bpZAb2c0Ub+B1aAlZjzeAxwBmoNhwFWYs7jMcAZqDUcBliJOY/HAGeg1nAYYCXmPN5iwJdqyxfSkJ8kS143Deccp+F2lYfFgGvJ5OxpQol1LrGrRnkbsqkau8hj9f2SAoqylOVzIq68Rk2Ql5Z11MoC2d3cNJbGdL+0tVipVtHsOo9WfvRDAAIQgAAEIACBf0xAPubdWu8IovOwfBPuneUu548BybZgAAYkE0iWZwVgQDKBZHlWAAYkE0iWZwVgQDKBZHlWQLIByEMAAhCAAAQgAAEILBKQX4f+REHTnvKgNHHxtDMPiClNlLNGywe19fWkqQk/mX+fecjEax2lew2nxI570tTcgD7zEEi3NsnH7W10/DrRaB1rfO4FVWeSthiQBL7KYkAlkbTFgAXw1mv6QrjZnzFghuSxHRjwWN4zNQyYIXlsRzfPC9JrsQXNvc8XaulM+++NP82BFTAl8uD33awArzNuie9Up5750/6lOGv/zgpYSypoHAYEgV0bFgPWkgoa183/gKD8F8NGXfurMCugkkjaYkAS+CqLAZVE0tZiwK6eNLWB167ysBhwLUnv4klTGwzYVR6UpWxwsnFoTFmKisnXcgqz9N7E702rLbTkxb1qpGE03RCAAAQgAAEIQAACEIAABCAAgQ4J/ABYvJLBSM2FcgAAAABJRU5ErkJggg==" alt="" class="ii_5">
+                </div>
+            </div>
+
+            <div id="oo_1">
+                    <div class="oo_11">成为开发者</div>
+                  
+            </div>
+            <div id="oo_2">
+                <div class="oo_11">创建产品</div>
+                
+            </div>
+            <div id="oo_3">
+                <div class="oo_11">开发测试</div>
+                
+            </div>
+            <div id="oo_4">
+                <div class="oo_11">产品认证</div>
+          
+                
+            </div>
+            <div id="oo_5">
+                <div class="oo_11">产品产品</div>
+             
+            </div>
+
+           <a href="https://account.xiaomi.com/pass/serviceLogin?callback=https%3A%2F%2Fxiaoai.mi.com%2Fsts%3Fsign%3DPzBbfU%252FbvYB8oT1lO%252FveJNYigyA%253D%26followup%3Dhttp%253A%252F%252Fxiaoai.mi.com%252Fapi%252Fuser%252Flogin%253Freferer%253Dhttps%25253A%25252F%25252Fxiaoai.mi.com%25252F&sid=xiaoai_open&_locale=zh_CN"> <div class="oo_122">创建产品</div></a>
+    </div>
+</div>
+<!-- //--------------------------------------------------------------------------------------------------------------     -->
+    <div id=aa_1>
+        <div class="aa_2">
+                <div class="aa_3">开始使用小爱开放平台</div>
+                <div class="aa_4">
+                       <a href="https://xiaoai.mi.com/skill/create/index"><div class="aa_5">技能开发</div></a> 
+                        <a href="https://xiaoai.mi.com/voiceservice/index"><div class="aa_6">语音服务</div></a>
+                </div>
+        </div>
+    </div>
+
+<!-- //----------------------------------------------------------------------------------------------------------------------- -->
+
+<div id="hh_1">
+    <div class="hh_2">
+            <div class="hh_3">
+                <p class="hh_4">友情链接</p>
+                <a href="https://dev.mi.com/console/"><p >小米开放平台</p></a>
+                <a href="https://dev.mi.com/console/"><p >小米IoT开发者平台</p></a>
+                <a href="https://dev.mi.com/console/"><p >小米生态云</p></a>
+                <a href="https://dev.mi.com/console/"><p >小米开放云</p></a>
+                <a href="https://dev.mi.com/console/"><p >小米商城</p></a>
+            </div>
+            <div class="hh_3">
+                    <div class="hh_3">
+                            <p class="hh_4">开发支持</p></a>
+                            <a href="https://dev.mi.com/console/"><p >文档中心</p>
+                            <a href="https://dev.mi.com/console/"><p >常见问题</p></a>
+                            <a href="https://dev.mi.com/console/"><p >小爱同学论坛</p></a>
+
+                        </div>
+            </div>
+            <div class="hh_3">
+                    <div class="hh_3">
+                        <p class="hh_4">技能开放平台</p>
+                            <a href="https://dev.mi.com/console/"><p >首页</p></a>
+                            <a href="https://dev.mi.com/console/"><p >控制台</p></a>
+                            <a href="https://dev.mi.com/console/"><p >新手指南</p></a>
+        
+                        </div>
+            </div>
+            <div class="hh_3">
+                    <div class="hh_3">
+                          <p class="hh_4">语音服务开放平台</p>
+                            <a href="https://dev.mi.com/console/"><p >首页</p></a>
+                            <a href="https://dev.mi.com/console/"><p >控制台</p></a>
+                            <a href="https://dev.mi.com/console/"><p >新手指南</p></a>
+                            
+                        </div>
+            </div>
+            <div class="hh_3">
+                    <div class="hh_3">
+                            <p class="hh_4">联系我们</p>
+                            <a href="https://dev.mi.com/console/"><p >邮箱：xiaoai@xiaomi.com</p></a>
+                            <a href="https://dev.mi.com/console/"><p >小爱同学微博</p></a>
+                            <a href="https://dev.mi.com/console/"><p class="wx">小艾同学微信</p></a>
+                            <img src="img/6666.jpg" alt="" class="hh_5">
+                        </div>
+            </div>
+    </div>
+</div>    
+<!-- //----------------------------------------------------------------------------------------------------------------- -->
+<div id="kk_1">
+    <div class="kk_2">
+            <div class="kk_3">
+                     <div class="kk_5">
+                    <div class="kk_4">小米科技</div>
+                    <div class="kk_5">
+                    <div class="kk_4">京ICP证 110507 号</div>
+                    <div class="kk_5">
+                   <div class="kk_4">京ICP备 10046444 号</div>
+                   <div class="kk_5">
+                        <div class="kk_6">京公网安备 11010802020134 号</div>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- //-------------------------------------------------------------------------------------------------------------------- -->
+<div id="shang"></div>
+
+<script src="/js/lunbuotu.js"></script>
+<script src="/js/6.js"></script>
+        <script src="/js/ajax.promise.js"></script>
+        <script src="/js/y2.js"></script>
+</body>
+</html>
